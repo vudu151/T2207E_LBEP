@@ -14,18 +14,21 @@ int main(){
 			}
 		}
 		else{
-			printf("Phuong trinh co mot nghiem la %f",-c/b);
+			float x=-c/b;
+			printf("Phuong trinh co mot nghiem la %f",x);
 		}
 	}
 	else{
-		float delta=b*b-4*a*c;
-		float can_delta=sqrt(delta);
-		if(delta>0){
-			printf("Phuong trinh có hai nghiem phan biet la %f %f",(-b+can_delta)/(2*a),(-b-can_delta)/(2*a));
+		float d=b*b-4*a*c;
+		if(d>0){
+			float x1=(-b+sqrt(d))/(2*a);
+			float x2=(-b-sqrt(d))/(2*a);
+			printf("Phuong trinh có hai nghiem phan biet la %f %f",x1,x2);
 		}
 		else{
-			if(delta==0){
-				printf("Phuong trinh co mot nghiem la %f",-b/(2*a));
+			if(d==0){
+				float x=-b/2*a;
+				printf("Phuong trinh co mot nghiem la %f",x);
 			}
 			else{
 				printf("Phuong trinh vo nghiem");
