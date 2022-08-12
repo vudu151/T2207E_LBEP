@@ -1,0 +1,26 @@
+<fulfillmentToken fulfillmentType="buy" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:5912a286-0752-4058-830e-0a95d23cb627</distributor>
+  <operatorURL>http://www.e-shabda.com:8081/fulfillment</operatorURL>
+  <transaction>2118221940</transaction>
+  <expiration>2022-09-10T19:33:02+05:30</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:cbeb601a-cd2f-4566-9053-9c86cbfb07e1</resource>
+    <resourceItem>0</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Building Responsive Websites with HTML5_ACE_INTL</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Aptech</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Aptech</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:cbeb601a-cd2f-4566-9053-9c86cbfb07e1</resource>
+      <permissions>
+        <display/>
+        <excerpt/>
+        <print/>
+        <play/>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>/9+peIwCV2nY2TsVqETNG2fbU/Q=</hmac>
+</fulfillmentToken>
